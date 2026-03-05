@@ -107,7 +107,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/assets/java.png');
+    background: url('../assets/java.png');
     background-size: cover;
     background-position: center;
 }
@@ -546,6 +546,8 @@ span {
     border: 1px solid var(--main-color);
     transition: all 0.3s ease;
     overflow: hidden;
+    max-height: 40rem;
+    max-width: 39rem;
 }
 
 /* Card lift effect */
@@ -870,6 +872,9 @@ img{
     .home-content h1 {
         font-size: 5.2rem;
     }
+    .home-content p {
+        font-weight: 600;  
+    }
     .education {
         padding: 10rem 4% 5rem 5%;
     }
@@ -883,6 +888,7 @@ img{
         margin-top: 2rem;
         text-align: center;
     }
+
 }
 
 @media (max-width: 371px) {
@@ -903,6 +909,10 @@ img{
     }
     .home-content h1 {
         font-size: 5rem;
+
+    }
+    .home-content p {
+        font-weight: 600;  
     }
 }
 
